@@ -1,0 +1,46 @@
+/* 
+    Created on : May 2, 2019, 8:19:13 PM
+    Author     : Ramin Masumov
+*/
+nav{    
+    height: 100px;
+    background-color: cadetblue;   
+    color:  white;
+    font-family: arial;
+    width: 1508px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 100px;
+}
+
+nav ul{
+    list-style:  none;
+    text-align: right;
+    display: flex;
+}
+nav ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 270px;
+}
+nav ul li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+div{
+    margin-left: -10px;
+}
+
+.main{
+    width: 1525px;
+    height: 625px;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    color: orangered;
+}

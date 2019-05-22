@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blueart Furniture</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="first.css" type="text/css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script type="text/javascript">
+                var degree = 0;
+                setInterval(function(){
+                    $("li").css({'transform': 'rotate(' + degree + 'deg)'});
+                    degree++;
+                }, 30);
+            //Hocam aklıma başka animation gelmedi...
+        </script>
+    </head>
+    <body>
+        <nav>
+            <img src="img/logo.png"/>
+            <ul>
+                <li><a href="second.html" target="_blank">CORPORATE</a></li>
+                <li><a href="third.html" target="_blank">NEWS</a></li>
+                <li><a href="fourth.html" target="_blank">COLLECTION</a></li>
+                <li><a href="snake.html" target="_blank">GAME</a></li>
+
+            </ul>
+        </nav>
+        <div>
+            <img class="main" src="img/anasayfa.PNG"/>
+        </div>
+    </body>
+</html>
